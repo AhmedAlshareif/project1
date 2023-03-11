@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+
+
+button.normal {
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    box-sizing: border-box;
+    left: 18.41%;
+    right: 73.26%;
+    top: 0.94%;
+    bottom: 97.52%;
+    border: 1px solid #00ADEE;
+    border-radius: 150px;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #00ADEE;
+
+}
+
+button.normal11 {
+    width: 120px;
+    height: 50px;
+    left: 0%;
+    right: 89.74%;
+    top: 0%;
+    bottom: 0%;
+    background: #00ADEE;
+    border: none;
+    border-radius: 150px;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+#header {
+    position: absolute;
+    width: 1170px;
+    height: 50px;
+    left: 134.5px;
+    top: 30.61px;
+}
+
+#header .llogo {
+    position: absolute;
+    left: 87.99%;
+    right: 0%;
+    top: 11%;
+    bottom: 11%;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 33.72%;
+    right: 33.72%;
+    top: 19%;
+    bottom: 19%;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    left: 33.72%;
+    right: 60.56%;
+    top: 19%;
+    bottom: 19%;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #1D1D35;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 300;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    color: #1D1D35;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #00ADEE;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #00ADEE;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#header h2 {
+    position: absolute;
+    left: 87.99%;
+    right: 3.04%;
+    top: 11%;
+    bottom: 11%;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    color: #303C38;
+}
+
+#header span {
+    color: #00ADEE;
+
+}
+
+#header .logo {
+    position: absolute;
+    left: 97.39%;
+    right: 0%;
+    top: 18.87%;
+    bottom: 18.87%;
+
+    background: url(image.png);
+}
+
+#hero {
+    position: absolute;
+    width: 1170px;
+    height: 550px;
+    left: 134.25px;
+    top: 136px;
+}
+
+#hero .r {
+    position: absolute;
+    width: 470.71px;
+    height: 550px;
+    left: 704.54px;
+    right: 35.7px;
+    top: 136px;
+    background: linear-gradient(270deg, #E5F7FD 0%, #E5F7FD 68.75%, rgba(229, 247, 253, 0) 100%);
+    border-radius: 25px;
+    z-index: 2;
+}
+
+#hero h2 {
+    padding-top: 100.6px;
+    margin-left: 90px;
+    width: 333px;
+    height: 140px;
+    left: 920.58px;
+    right: 186.42px;
+    top: 236.6px;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: right;
+    color: #1D1D35;
+    direction: rtl;
+}
+
+#hero h2 span {
+    color: #8FC930;
+}
+
+#hero h4 {
+    padding-top: 100.6px;
+    margin-left: 120px;
+    direction: rtl;
+    width: 300px;
+    height: 92px;
+    left: 870.13px;
+    top: 396.76px;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: right;
+    color: #7D7E82;
+}
+
+#hero button {
+    margin-top: 120px;
+    margin-left: 280px;
+    position: sticky;
+    width: 150px;
+    height: 50px;
+    left: 1103.58px;
+    top: 500.6px;
+    background: #FFFFFF;
+    border-radius: 150px;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #1D1D35;
+    border: none;
+}
+
+#hero .l {
+    position: absolute;
+    width: 850px;
+    height: 550px;
+    left: 0px;
+    top: 136px;
+    background: url(img/image\ 2.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    border-radius: 25px;
+
+}
