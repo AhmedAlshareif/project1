@@ -344,6 +344,7 @@ transform: rotate(-180deg);
     justify-content: center;
     align-items: center;
 }
+
 #Service .ser-container1 {
     position: relative;
     display: flex;
@@ -359,6 +360,7 @@ transform: rotate(-180deg);
     box-shadow: 0px 8px 24px rgba(0, 173, 238, 0.1);
     border-radius: 25px;
 }
+
 #Service .ser-container10 {
     position: relative;
     display: flex;
@@ -374,6 +376,7 @@ transform: rotate(-180deg);
     box-shadow: 0px 8px 24px rgba(0, 173, 238, 0.1);
     border-radius: 25px;
 }
+
 #Service .ser-container00 {
     position: relative;
     display: flex;
@@ -389,6 +392,7 @@ transform: rotate(-180deg);
     box-shadow: 0px 8px 24px rgba(0, 173, 238, 0.1);
     border-radius: 25px;
 }
+
 #Service .ser-container2 {
     position: relative;
     display: flex;
@@ -404,7 +408,8 @@ transform: rotate(-180deg);
     box-shadow: 0px 8px 24px rgba(0, 173, 238, 0.1);
     border-radius: 25px;
 }
-#Service .ser-container3{
+
+#Service .ser-container3 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -474,7 +479,8 @@ transform: rotate(-180deg);
     text-align: right;
     color: #6D6E71;
 }
-#Service .ser-container a{
+
+#Service .ser-container a {
     width: 308.66px;
     position: relative;
     height: 62px;
@@ -489,6 +495,7 @@ transform: rotate(-180deg);
     color: #00ADEE;
     text-decoration: none;
 }
+
 #whyus {
     position: absolute;
     width: 1136.21px;
@@ -497,6 +504,7 @@ transform: rotate(-180deg);
     padding-top: 100px;
     top: 1594.54px;
 }
+
 #whyus .w1 {
     position: relative;
     width: 390.87px;
@@ -506,7 +514,8 @@ transform: rotate(-180deg);
     align-items: center;
     margin-left: 34%;
 }
-#whyus .w1 h1{
+
+#whyus .w1 h1 {
     font-family: 'Avenir Arabic';
     font-style: normal;
     font-weight: 400;
@@ -525,6 +534,7 @@ transform: rotate(-180deg);
     border-radius: 20px;
     position: relative;
 }
+
 .usus img {
     width: 100px;
     position: relative;
@@ -532,7 +542,8 @@ transform: rotate(-180deg);
     left: 340.96px;
     top: -680px;
 }
-.usus  h3 {
+
+.usus h3 {
     position: relative;
     min-width: 70px;
     height: 31px;
@@ -545,9 +556,10 @@ transform: rotate(-180deg);
     line-height: 31px;
     text-align: right;
     color: #303C38;
-    
+
 }
-.usus  h5 {
+
+.usus h5 {
     position: relative;
     width: 411.56px;
     height: 31px;
@@ -559,7 +571,200 @@ transform: rotate(-180deg);
     font-size: 20px;
     line-height: 31px;
     text-align: right;
-    color: #6D6E71; 
+    color: #6D6E71;
 }
 
 
+footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    left: 9%;
+    top: 2700px;
+    bottom: 0%;
+    width: 1170px;
+    height: 377.95px;
+    background: #E5F7FD;
+    border-radius: 20px 20px 0px 0px;
+
+
+}
+
+footer .col .follow h4 {
+    position: relative;
+    left: 150px;
+    top: -20px;
+}
+
+footer .col .follow .icon {
+    position: relative;
+    top: -30px;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+footer .col h4 {
+    width: 50px;
+    height: 28px;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    color: #000000;
+}
+
+footer .col a {
+    height: 25px;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: right;
+    color: #7D7E82;
+}
+
+footer .clean {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+.col .cont {
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 84px;
+    height: 28px;
+    text-align: right;
+    color: #000000;
+}
+
+.col .follow .icon i {
+    padding: 10px;
+
+}
+
+.col .follow h4 {
+    position: relative;
+    left: 19.5%;
+    right: 74.52%;
+    top: 8.09%;
+    bottom: 84.5%;
+    width: 70px;
+    height: 28px;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    position: relative;
+    left: -40px;
+    top: -27px;
+
+}
+
+
+footer .follow i:hover,
+footer a:hover {
+    color: #05568c;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+
+}
+
+footer .copyright p {
+    position: relative;
+    top: 40px;
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+
+}
+
+footer span {
+    color: #00ADEE;
+}
+
+footer .clean h2 {
+    position: relative;
+    margin: 20px;
+    top: 10px;
+}
+
+footer .par {
+    position: relative;
+    width: 243.75px;
+    left: 0px;
+    top: 0px;
+}
+
+footer .par p {
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: right;
+    color: #7D7E82;
+}
+
+footer .line {
+    position: relative;
+    width: 1011.75px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
